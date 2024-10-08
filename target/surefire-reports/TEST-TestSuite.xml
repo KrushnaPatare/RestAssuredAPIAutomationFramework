@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="51.999" tests="27" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="F:\WorkSpace\RestAssuredPetStoreAutomation-main\target\test-classes;F:\WorkSpace\RestAssuredPetStoreAutomation-main\target\classes;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Admin\.m2\repository\org\json\json\20230618\json-20230618.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Admin\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Admin\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Admin\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-schema-validator\5.3.1\json-schema-validator-5.3.1.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Admin\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Admin\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Admin\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Admin\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Admin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Admin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Admin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Admin\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire7179333440874888726\surefirebooter-20241002210657457_3.jar C:\Users\Admin\AppData\Local\Temp\surefire7179333440874888726 2024-10-02T21-06-56_624-jvmRun1 surefire-20241002210657457_1tmp surefire_0-20241002210657457_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\WorkSpace\RestAssuredPetStoreAutomation-main\target\test-classes;F:\WorkSpace\RestAssuredPetStoreAutomation-main\target\classes;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Admin\.m2\repository\org\json\json\20230618\json-20230618.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Admin\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Admin\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Admin\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Admin\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-schema-validator\5.3.1\json-schema-validator-5.3.1.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Admin\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Admin\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Admin\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Admin\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Admin\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Admin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Admin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Admin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Admin\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="F:\WorkSpace\RestAssuredPetStoreAutomation-main"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire7179333440874888726\surefirebooter-20241002210657457_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="F:\WorkSpace\RestAssuredPetStoreAutomation-main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Eclips/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551/jre/bin/server;C:/Eclips/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\GitHub\Git\cmd;C:\NodeJS\;C:\NodeJS\node_modules\;C:\Users\Admin\AppData\Local\Programs\Python\Python311;C:\Selenium\Chrome exe\chromedriver.exe;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17;C:\Maven\plugIn\maven-compiler-plugin-3.11.0;C:\Maven\apache-maven-3.8.8\bin;C:\Users\Admin\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Admin\AppData\Local\Programs\Python\Python311\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.3\bin;;;C:\Eclips\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testAddNewPet[1, 123, Bird, Sona, www.google.com, www.facebook.com, 10, Red, available](1)" classname="api.test.PetTest" time="4.327">
+    <system-out><![CDATA[Started Executing.
+Started Executing.
+Started Executing.
+testAddNewPet started executing.
+HTTP/1.1 200 OK
+{
+    "id": 1,
+    "category": {
+        "id": 123,
+        "name": "Bird"
+    },
+    "name": "Sona",
+    "photoUrls": [
+        "www.google.com",
+        "www.facebook.com"
+    ],
+    "tags": [
+        {
+            "id": 10,
+            "name": "Red"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="testAddNewPet[2, 234, Animal, Lucky, www.google.com, www.facebook.com, 20, Black, pending](2)" classname="api.test.PetTest" time="1.448">
+    <system-out><![CDATA[testAddNewPet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testAddNewPet started executing.
+HTTP/1.1 200 OK
+{
+    "id": 2,
+    "category": {
+        "id": 234,
+        "name": "Animal"
+    },
+    "name": "Lucky",
+    "photoUrls": [
+        "www.google.com",
+        "www.facebook.com"
+    ],
+    "tags": [
+        {
+            "id": 20,
+            "name": "Black"
+        }
+    ],
+    "status": "pending"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testAddNewPet[3, 345, Fish, Goldy, www.google.com, www.facebook.com, 30, Golden, sold](3)" classname="api.test.PetTest" time="1.414">
+    <system-out><![CDATA[testAddNewPet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testAddNewPet started executing.
+HTTP/1.1 200 OK
+{
+    "id": 3,
+    "category": {
+        "id": 345,
+        "name": "Fish"
+    },
+    "name": "Goldy",
+    "photoUrls": [
+        "www.google.com",
+        "www.facebook.com"
+    ],
+    "tags": [
+        {
+            "id": 30,
+            "name": "Golden"
+        }
+    ],
+    "status": "sold"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateExistingPet[null, 123, Bird555, Sona, www.google.com, www.facebook.com, 11, Red, available](1)" classname="api.test.PetTest" time="1.406">
+    <system-out><![CDATA[testAddNewPet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testUpdateExistingPet started executing.
+HTTP/1.1 200 OK
+{
+    "id": 9223372036854097905,
+    "category": {
+        "id": 123,
+        "name": "Bird555"
+    },
+    "name": "Sona",
+    "photoUrls": [
+        "www.google.com",
+        "www.facebook.com"
+    ],
+    "tags": [
+        {
+            "id": 11,
+            "name": "Red"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateExistingPet[null, 234, Animal555, Lucky, www.google.com, www.facebook.com, 22, Black, pending](2)" classname="api.test.PetTest" time="1.396">
+    <system-out><![CDATA[testUpdateExistingPet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testUpdateExistingPet started executing.
+HTTP/1.1 200 OK
+{
+    "id": 9223372036854097907,
+    "category": {
+        "id": 234,
+        "name": "Animal555"
+    },
+    "name": "Lucky",
+    "photoUrls": [
+        "www.google.com",
+        "www.facebook.com"
+    ],
+    "tags": [
+        {
+            "id": 22,
+            "name": "Black"
+        }
+    ],
+    "status": "pending"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateExistingPet[null, 345, Fish555, Goldy, www.google.com, www.facebook.com, 33, Golden, sold](3)" classname="api.test.PetTest" time="1.399">
+    <system-out><![CDATA[testUpdateExistingPet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testUpdateExistingPet started executing.
+HTTP/1.1 200 OK
+{
+    "id": 9223372036854097916,
+    "category": {
+        "id": 345,
+        "name": "Fish555"
+    },
+    "name": "Goldy",
+    "photoUrls": [
+        "www.google.com",
+        "www.facebook.com"
+    ],
+    "tags": [
+        {
+            "id": 33,
+            "name": "Golden"
+        }
+    ],
+    "status": "sold"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testFindPetByStatus" classname="api.test.PetTest" time="1.391">
+    <system-out><![CDATA[testUpdateExistingPet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testFindPetByStatus started executing.
+HTTP/1.1 200 OK
+[
+    {
+        "id": 9223372036854097158,
+        "category": {
+            "id": 0,
+            "name": "turtle "
+        },
+        "name": "Rex",
+        "photoUrls": [
+            "https://example.com/image6435.jpg"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "goat"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9223372036854097339,
+        "category": {
+            "id": 234,
+            "name": "Animal555"
+        },
+        "name": "Lucky",
+        "photoUrls": [
+            "www.google.com",
+            "www.facebook.com"
+        ],
+        "tags": [
+            {
+                "id": 22,
+                "name": "Black"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 2,
+        "category": {
+            "id": 234,
+            "name": "Animal"
+        },
+        "name": "Lucky",
+        "photoUrls": [
+            "www.google.com",
+            "www.facebook.com"
+        ],
+        "tags": [
+            {
+                "id": 20,
+                "name": "Black"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9223372036854097907,
+        "category": {
+            "id": 234,
+            "name": "Animal555"
+        },
+        "name": "Lucky",
+        "photoUrls": [
+            "www.google.com",
+            "www.facebook.com"
+        ],
+        "tags": [
+            {
+                "id": 22,
+                "name": "Black"
+            }
+        ],
+        "status": "pending"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="testFindPetByTags" classname="api.test.PetTest" time="1.394">
+    <system-out><![CDATA[testFindPetByStatus got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testFindPetByTags started executing.
+HTTP/1.1 200 OK
+[
+    {
+        "id": 9223372036854097338,
+        "category": {
+            "id": 123,
+            "name": "Bird555"
+        },
+        "name": "Sona",
+        "photoUrls": [
+            "www.google.com",
+            "www.facebook.com"
+        ],
+        "tags": [
+            {
+                "id": 11,
+                "name": "Red"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1,
+        "category": {
+            "id": 123,
+            "name": "Bird"
+        },
+        "name": "Sona",
+        "photoUrls": [
+            "www.google.com",
+            "www.facebook.com"
+        ],
+        "tags": [
+            {
+                "id": 10,
+                "name": "Red"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9223372036854097905,
+        "category": {
+            "id": 123,
+            "name": "Bird555"
+        },
+        "name": "Sona",
+        "photoUrls": [
+            "www.google.com",
+            "www.facebook.com"
+        ],
+        "tags": [
+            {
+                "id": 11,
+                "name": "Red"
+            }
+        ],
+        "status": "available"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="testFindPet[1, 123, Bird, Sona, www.google.com, www.facebook.com, 10, Red, available](1)" classname="api.test.PetTest" time="2.79">
+    <system-out><![CDATA[testFindPetByTags got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testFindPet started executing.
+HTTP/1.1 200 OK
+{
+    "id": 1,
+    "category": {
+        "id": 123,
+        "name": "Bird"
+    },
+    "name": "Sona",
+    "photoUrls": [
+        "www.google.com",
+        "www.facebook.com"
+    ],
+    "tags": [
+        {
+            "id": 10,
+            "name": "Red"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testFindPet[2, 234, Animal, Lucky, www.google.com, www.facebook.com, 20, Black, pending](2)" classname="api.test.PetTest" time="2.801">
+    <system-out><![CDATA[testFindPet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testFindPet started executing.
+HTTP/1.1 200 OK
+{
+    "id": 2,
+    "category": {
+        "id": 234,
+        "name": "Animal"
+    },
+    "name": "Lucky",
+    "photoUrls": [
+        "www.google.com",
+        "www.facebook.com"
+    ],
+    "tags": [
+        {
+            "id": 20,
+            "name": "Black"
+        }
+    ],
+    "status": "pending"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testFindPet[3, 345, Fish, Goldy, www.google.com, www.facebook.com, 30, Golden, sold](3)" classname="api.test.PetTest" time="2.626">
+    <system-out><![CDATA[testFindPet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testFindPet started executing.
+HTTP/1.1 200 OK
+{
+    "id": 3,
+    "category": {
+        "id": 345,
+        "name": "Fish"
+    },
+    "name": "Goldy",
+    "photoUrls": [
+        "www.google.com",
+        "www.facebook.com"
+    ],
+    "tags": [
+        {
+            "id": 30,
+            "name": "Golden"
+        }
+    ],
+    "status": "sold"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet" classname="api.test.PetTest" time="1.756">
+    <system-out><![CDATA[testFindPet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testUpdatePet started executing.
+HTTP/1.1 200 OK
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "3"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUploadPetImage" classname="api.test.PetTest" time="1.555">
+    <system-out><![CDATA[testUpdatePet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testUploadPetImage started executing.
+HTTP/1.1 200 OK
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "additionalMetadata: Google Image\nFile uploaded to ./store.json, 601 bytes"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePet" classname="api.test.PetTest" time="1.389">
+    <system-out><![CDATA[testUploadPetImage got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testDeletePet started executing.
+HTTP/1.1 200 OK
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testPostStore" classname="api.test.StoreTest" time="1.445">
+    <system-out><![CDATA[testDeletePet got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testPostStore started executing.
+HTTP/1.1 200 OK
+{
+    "id": 2,
+    "petId": 2000,
+    "quantity": 33,
+    "shipDate": "2023-12-12T16:35:59.906+0000",
+    "status": "placed",
+    "complete": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetStore" classname="api.test.StoreTest" time="2.115">
+    <system-out><![CDATA[testPostStore got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testGetStore started executing.
+HTTP/1.1 200 OK
+{
+    "id": 2,
+    "petId": 2000,
+    "quantity": 33,
+    "shipDate": "2023-12-12T16:35:59.906+0000",
+    "status": "placed",
+    "complete": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetStoreInventories" classname="api.test.StoreTest" time="1.365">
+    <system-out><![CDATA[testGetStore got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testGetStoreInventories started executing.
+HTTP/1.1 200 OK
+{
+    "sold": 20,
+    "SOLD": 1,
+    "string": 601,
+    "pending": 4,
+    "available": 152,
+    "status": 19
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteStore" classname="api.test.StoreTest" time="1.418">
+    <system-out><![CDATA[testGetStoreInventories got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testDeleteStore started executing.
+HTTP/1.1 200 OK
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testPostUser" classname="api.test.UserTest" time="1.357">
+    <system-out><![CDATA[testDeleteStore got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testPostUser started executing.
+HTTP/1.1 200 OK
+Date: Wed, 02 Oct 2024 15:37:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1914928104"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser" classname="api.test.UserTest" time="1.295">
+    <system-out><![CDATA[testPostUser got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testGetUser started executing.
+HTTP/1.1 200 OK
+{
+    "id": 1914928104,
+    "username": "robert.pagac",
+    "firstName": "Socorro",
+    "lastName": "Little",
+    "email": "maximo.oreilly@example.com",
+    "password": "fgxkns97ca6v7vl",
+    "phone": "(638) 726-9858",
+    "userStatus": 0
+}
+robert.pagac
+]]></system-out>
+  </testcase>
+  <testcase name="testPutUser" classname="api.test.UserTest" time="1.257">
+    <system-out><![CDATA[testGetUser got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testPutUser started executing.
+HTTP/1.1 200 OK
+{
+    "id": 1914928104,
+    "username": "robert.pagac",
+    "firstName": "Socorro",
+    "lastName": "Little",
+    "email": "maximo.oreilly@example.com",
+    "password": "fgxkns97ca6v7vl",
+    "phone": "(638) 726-9858",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="api.test.UserTest" time="1.34">
+    <system-out><![CDATA[testPutUser got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testDeleteUser started executing.
+HTTP/1.1 200 OK
+{
+    "id": 1914928104,
+    "username": "robert.pagac",
+    "firstName": "Socorro",
+    "lastName": "Little",
+    "email": "maximo.oreilly@example.com",
+    "password": "fgxkns97ca6v7vl",
+    "phone": "(638) 726-9858",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginUser" classname="api.test.UserTest" time="1.359">
+    <system-out><![CDATA[testDeleteUser got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testLoginUser started executing.
+HTTP/1.1 200 OK
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1727883463168"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testLogoutUser" classname="api.test.UserTest" time="1.325">
+    <system-out><![CDATA[testLoginUser got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testLogoutUser started executing.
+HTTP/1.1 200 OK
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginUserTime" classname="api.test.UserTest" time="1.345">
+    <system-out><![CDATA[testLogoutUser got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testLoginUserTime started executing.
+HTTP/1.1 200 OK
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1727883465812"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testLogoutUserTime" classname="api.test.UserTest" time="1.35">
+    <system-out><![CDATA[testLoginUserTime got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testLogoutUserTime started executing.
+HTTP/1.1 200 OK
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUsers" classname="api.test.UserTest" time="1.277">
+    <system-out><![CDATA[testLogoutUserTime got successfully executed.
+Started Executing.
+Started Executing.
+Started Executing.
+testCreateUsers started executing.
+HTTP/1.1 200 OK
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
